@@ -1,0 +1,23 @@
+.list {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.list__item {
+  list-style: none;
+}
+.list__item:not(:last-child) {
+  margin-right: 20px;
+}
+.button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+.button:hover {
+  background-color: grey;
+}
